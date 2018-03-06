@@ -1,9 +1,9 @@
-import React, {Component} from 'react';
-import { Text, ListItem, Thumbnail, Body, Button, Icon } from "native-base";
+import React, {Component} from "react"
+import { Text, ListItem, Thumbnail, Body } from "native-base"
 export default class ItemPhoto extends Component{
     
     render(){
-        const item = this.props.item;
+        const item = this.props.item
 
         return(
             <ListItem>
@@ -11,7 +11,7 @@ export default class ItemPhoto extends Component{
                     <Text>{item.name}</Text>
                 </Body>
             </ListItem>
-        );
+        )
     }
 
 }
